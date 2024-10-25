@@ -22,7 +22,7 @@ connection.connect(err => {
     }
     console.log('Connected to the MySQL database.');
   
-    const query = 'SELECT * FROM course';
+    const query = 'SELECT * FROM student';
   
     connection.query(query, (err, results) => {
       if (err) {
